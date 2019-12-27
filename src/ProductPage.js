@@ -27,8 +27,7 @@ class InitiallyOpened extends React.PureComponent {
           </label>
         </div>
         <Collapse isOpened={isOpened}>
-          <div style={{ height }} className="blob">
-            <h1>hi</h1>
+          <div style={{ height }} className="blob ">
           </div>
         </Collapse>
       </div>

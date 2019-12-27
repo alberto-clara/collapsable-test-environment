@@ -1,4 +1,49 @@
 .App {
-  font-family: sans-serif;
-  text-align: center;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.h1 {
+    font-size: 2em;
+    padding: 1em 0;
+}
+
+.h2 {
+    font-size: 1.6em;
+    padding: 0.5em 0;
+}
+  
+.section {
+    padding-top: 30px;
+}
+  
+.config {
+    padding-bottom: 20px;
+}
+  
+.label {
+    padding-right: 20px;
+}
+  
+.input {
+    margin-right: 10px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+  
+.blob {
+    border-radius: 50vh;
+    background: rgba(96, 125, 139, 0.6);
+}
+  
+.ReactCollapse--collapse {
+    max-width: 800px;
+    border: 1px solid rgba(3, 169, 244, 0.3);
+    border-radius: 10px;
+    background-color: rgba(100, 255, 100, 0.1);
+    transition: height 500ms;
+}
+  
+.ReactCollapse--content {
+
 }
